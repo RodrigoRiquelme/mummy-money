@@ -6,7 +6,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from mummy_money.investors.models import Investor
-from mummy_money.investors.serializers import InvestorSerializer
+from mummy_money.investors.serializers import InvestorSerializer, InvestorDetailSerializer
 
 
 # @permission_classes((IsAuthenticated,))
@@ -17,7 +17,7 @@ class PyramidViewSet(viewsets.ModelViewSet):
     def retrieve(self, request, pk=None):
         queryset = Investor.objects.all()
         investor = get_object_or_404(queryset, pk=pk)
-        serializer = InvestorSerializer(investor)
+        serializer = InvestorDetailSerializer(investor)
         return Response(serializer.data)
 
     def perform_create(self, serializer):
