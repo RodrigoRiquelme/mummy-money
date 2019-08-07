@@ -1,0 +1,6 @@
+
+##IDE and System
+.DS_Store
+.idea/
+.env
+*.pyc

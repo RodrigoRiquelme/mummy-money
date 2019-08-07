@@ -1,0 +1,142 @@
+[
+  {
+    "model": "investors.investor",
+    "pk": 1,
+    "fields": {
+      "name": "The Mummy",
+      "status": "ACTIVE",
+      "root_privilege": true,
+      "funds": "5000.00",
+      "innocence": "0.00",
+      "experience": "0.00",
+      "charisma": "0.00",
+      "parent": null
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 2,
+    "fields": {
+      "name": "The Naive",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "1.00",
+      "experience": "0.00",
+      "charisma": "0.00",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 3,
+    "fields": {
+      "name": "The Experienced",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.00",
+      "experience": "1.00",
+      "charisma": "0.00",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 4,
+    "fields": {
+      "name": "The Charismatic",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.00",
+      "experience": "0.00",
+      "charisma": "1.00",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 5,
+    "fields": {
+      "name": "Mister All",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "1.00",
+      "experience": "1.00",
+      "charisma": "1.00",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 6,
+    "fields": {
+      "name": "Mister Nothing",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.00",
+      "experience": "0.00",
+      "charisma": "0.00",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 7,
+    "fields": {
+      "name": "Mister Balance",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.50",
+      "experience": "0.50",
+      "charisma": "0.50",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 8,
+    "fields": {
+      "name": "Mister Almost Charismatic",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.50",
+      "experience": "0.50",
+      "charisma": "0.90",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 9,
+    "fields": {
+      "name": "Mister Almost Innocent",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.90",
+      "experience": "0.50",
+      "charisma": "0.50",
+      "parent": 1
+    }
+  },
+  {
+    "model": "investors.investor",
+    "pk": 10,
+    "fields": {
+      "name": "Mister Almost Experienced",
+      "status": "ACTIVE",
+      "root_privilege": false,
+      "funds": "0.00",
+      "innocence": "0.00",
+      "experience": "0.90",
+      "charisma": "0.50",
+      "parent": 1
+    }
+  }
+]
